@@ -87,7 +87,17 @@ nav a {
 
   /* end of refrence */
 
-  .subnav-content {}
+.links link .subnav .subnav-content .nav-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.links link .subnav .subnav-content .nav-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
 
   /* borderbottom 1px solid black
       paddingbottom 5px*/
