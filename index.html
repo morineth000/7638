@@ -4,36 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home</title>
 
     <script src="https://kit.fontawesome.com/c924cef4e8.js" crossorigin="anonymous"></script>
-   <script> //refrenced from js fiddle @ https://jsfiddle.net/bradtraversy/74owmd01/ 
-    var i = 0 
-    var img = []
-    var time = 3000;
 
-    img[0] = 'media/images/wide-computer-screen/800px/milkyway.jpg'; 
-    img[1] = 'media/images/wide-computer-screen/800px/mountains.jpg';
-    img[2] = 'media/images/wide-computer-screen/800px/foliage.jpg';
+    <script> //refrenced from js fiddle @ https://jsfiddle.net/bradtraversy/74owmd01/ 
+        var i = 0 
+        var img = []
+        var time = 3000;
 
-    function changeImg() {
-        document.getElementsByClassName('slide')[0].src = img[i];
-        if (i < img.length - 1) {
-            i++;
-        } else {
-            i = 0;
+        img[0] = 'media/images/wide-computer-screen/800px/milkyway.jpg'; 
+        img[1] = 'media/images/wide-computer-screen/800px/mountains.jpg';
+        img[2] = 'media/images/wide-computer-screen/800px/foliage.jpg';
+
+        function changeImg() {
+            document.getElementsByClassName('slide')[0].src = img[i];
+            if (i < img.length - 1) {
+                i++;
+            } else {
+                i = 0;
+            }
+
+            setTimeout('changeImg()', time);
         }
-
-        setTimeout('changeImg()', time);
-    }
-    window.onload = changeImg;
-   </script>
-
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/nav.css">
-
+        window.onload = changeImg;
     </script>
+
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/styles.css">
+        <link rel="stylesheet" href="styles/index.css">
+        <link rel="stylesheet" href="styles/nav.css">
+
 </head>
 <body>
     <nav class="nav1">
@@ -98,6 +99,122 @@
             </div>
         </div>
     </nav>
-    <img class="slide" alt="Slide Show of Utah">
+    <header>
+        <img class="slide" alt="Slide Show of Utah">
+        <div class="textoverlay">
+            <div class="top">
+                <h2>Come See All Of Our Beautiful National Parks!</h2>
+            </div>
+            
+            <div class="bot">
+                <h3>Explore Utah Today! <i class="fa-solid fa-arrow-right-long"></i></h3>
+            </div>
+        </div>
+        <div class="sidemargin10px">
+    </header>
+    <main>
+        <div class="this-is-utah">
+            <div class="img">
+                <img src="media/images/wide-computer-screen/800px/hiking.JPG" alt="Man hiking">
+            </div>
+            <div class="content">
+                This is Utah. <br>
+                You're Welcome. <br>
+                Perfect powder, rugged red rock, alpine lakes and more. If Utah don’t got it, you don’t need it. <br>
+
+                Every state thinks it’s fun. Every state claims to have “something for everyone.” But not every state has 3.5 distinct geographic regions, five national parks, 45 state parks, 5 national historic sites & trails, and a dozen national monuments & recreation areas. Read more...
+            </div>
+        </div>
+
+        <div class="argument-for-utah">
+            Not every state lets you ski and golf and go to the ballet in one day. Not every state has 12,000 years of human history and fry sauce. We’re sorry. We know it’s not fair. But hey, Utah’s landlocked, so at least it doesn’t have nice beaches. (No, wait. Actually, it does.)
+            <br>
+            So while we feel an appropriate amount of guilt over our state being disproportionately fantastic, we’re also not going to hide Utah’s light under a bushel. That’d be selfish. And we’re not selfish. We love sharing our state. In fact, we want to help you plan a Utah vacation right now. Check the Travel Tips below for a few ideas!
+        </div>
+
+        <div class="travel-tips">
+            <h3>Travel Tips</h3>
+
+            If you’re the goal-oriented, list-making type, visiting Utah ain’t easy. You want to see everything, you really do, but you just can’t. Every time you set out to check something off your bucket list, you end up adding three more.
+            <br>
+            A tidy little three-day weekend in Zion might inspire a trip to Coral Pink Sand Dunes, which leads to Rocking V Cafe in Kanab, then Highway 12 Scenic Byway, then the Burr Trail, and the next thing you know you’re becoming a True Aggie under a full moon. In a rock climbing harness for some reason.
+            <br>
+            Or you plan a ski trip to one Utah ski resort and realize you can drive an hour and ski 10 more. But while you’re there, someone on the lift says something about buffalo and the world’s preeminent work of land art at the edge of the largest saltwater lake in the Western Hemisphere, so now you have to do that, too. Before dinner and a concert downtown.
+            <br>
+            Well, Utah.com is here to pile on. We’ve made it our mission to aggregate all the always-awesome, often-obscure adventures that could only occur in our lovely Deseret. It’s a local view of weird and awesome stuff you didn’t know you couldn’t live without. We’ve done our best to help you see them efficiently with essential Utah information and helpful trip itineraries, but touring Utah is like falling into quicksand: Every move you make sucks you deeper into its thrall.
+            <br>
+            So we’re sorry to deliver a fantastic bit of bad news: It’s mathematically impossible to finish your Utah bucket list. But we’ll help you plan the trip you’ll be talking about on your deathbed.
+            <br>
+            Get busy rolling your rock up and down the Rockies, little Sisyphuses!
+        </div>
+
+        <div class="popular-activites">
+            <h3>popular-activites</h3>
+            <div class="pop-links">
+                <div class="pop-link">
+                    <img src="https://www.utah.com/includes/public/assets/icons/hiking.svg" alt="">
+                    Hiking
+                </div>
+                <div class="pop-link">
+                    <img src="https://www.utah.com/includes/public/assets/icons/theater.svg" alt="">
+                    Theater
+                </div>
+                <div class="pop-link">
+                    <img src="https://www.utah.com/includes/public/assets/icons/equestrian.svg" alt="">
+                    Equestrian
+                </div>
+                <div class="pop-link">
+                    <img src="https://www.utah.com/includes/public/assets/icons/golf.svg" alt="">
+                    Golf
+                </div>
+                <div class="pop-link">
+                    <img src="https://www.utah.com/includes/public/assets/icons/bike.svg" alt="">
+                    Mountain Biking
+                </div>
+                <div class="pop-link">
+                    <img src="https://www.utah.com/includes/public/assets/icons/bird.svg" alt="">
+                    Bird Watching
+                </div>
+            </div>
+        </div>
+        <div class="one-giant-playground">
+            <h3>UTAH: ONE GIANT PLAYGROUND</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5wBk2dGUo9g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </main>
+    </div>
+    <footer>
+        <div class="row1">
+            <!-- font awesome icons -->
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <!-- SVG file from their own website -->
+            <img src="https://www.utah.com/includes/public/assets/logo.svg" alt="Utah Dot Com logo" width="100px">
+            <i class="fa-brands fa-snapchat"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="row2">
+            <!-- add the right form here -->
+            <a href="#"><div class="button">Email Us!</div></a>
+            
+        </div>
+        <div class="row3">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Advertise</a></li>
+                <li><a href="#">Privacy Polic</a></li>
+                <li><a href="#">Terms Of Policy</a></li>
+                <li><a href="#">Design</a></li>
+                <li><a href="#">Subscribe</a></li>
+            </ul>
+        </div>
+        <div class="row4">
+            <!-- add the correct copyright symbol in html -->
+            <p>Copyright © 2022 Utah.com. All rights reserved. Utah Travel Industry Website</p>
+        </div>
+    </footer>
 </body>
 </html>
