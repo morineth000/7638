@@ -37,7 +37,7 @@ nav a {
 
 /* dropdown refrenced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_subnav*/  
   .subnav {
-    float: left;
+  
     overflow: hidden;
   }
   

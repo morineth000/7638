@@ -32,3 +32,13 @@
 .pop-links img  {
     width: 3em;
 }
+
+.popular-activites h3{
+    text-align: center;
+}
+
+.popular-activites .pop-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
