@@ -35,7 +35,7 @@ nav a {
     margin: 0 5px;
 }
 
-/* dropdown */  
+/* dropdown refrenced from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_subnav*/  
   .subnav {
     float: left;
     overflow: hidden;
@@ -85,10 +85,9 @@ nav a {
     flex-direction: row;
   }
 
-  .nav-cat-links {
-    display: flex;
-    flex-direction: column;
-  }
+  /* end of refrence */
+
+  .subnav-content {}
 
   /* borderbottom 1px solid black
       paddingbottom 5px*/
