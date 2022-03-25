@@ -1,0 +1,98 @@
+footer{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: gray;
+}
+
+footer .row1 i{
+    font-size: 1.5em;
+    margin: 10px 15px 0 15px;
+    transition: .5s;
+}
+
+footer .row1 i:hover{
+    color: white;
+    transition: .5s;
+}
+
+footer .row1 img:hover{
+    transition: .5s;
+    width: 110px;
+}
+
+footer .row1 img{
+    margin: 0px 10px 10px 10px;
+    width: 100px;
+    transition: .5s;
+}
+
+footer .row1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer .row2{
+    width: 100%;
+}
+footer .row2 a .button{
+    width: 200px;
+    height: 30px;
+    background-color: #E94127;
+    border-radius: 10px;
+    text-align: center;
+    transition: .5s;
+    
+}
+footer .row2 a .button{
+   text-decoration: none;
+   color: #343434;
+    
+}
+
+footer .row2 a{
+    text-decoration: none;
+    color: #343434;
+}
+footer .row2 .button:hover{
+    box-shadow: 5px 5px  #343434;
+    transition: .5s;
+}
+
+footer .row2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+footer .row3{
+    width: 100%;
+}
+
+footer > .row3 > ul{   
+    list-style-type: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+footer .row3 ul li a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px 0 10px;
+    transition: .5s
+}
+
+footer .row3 ul li a:hover {
+    transition: .5s;
+    color: white;
+}
+
+footer .row4{
+    text-align: center;
+}
