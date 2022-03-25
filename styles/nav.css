@@ -9,6 +9,7 @@ nav {
     justify-content: space-evenly;
     padding-top: 45px;
     padding-bottom: 45px;
+    margin-left: -10px;
 }
 
 nav a {
@@ -33,3 +34,4 @@ nav a {
 .links a {
     margin: 0 5px;
 }
+
