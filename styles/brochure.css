@@ -7,3 +7,24 @@ header {
     height: 100vh;
 }
 
+main .visitors-g-b h1 {
+    text-align: center;
+}
+
+form .checklist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+input{
+    width: 400px;
+    box-sizing: border-box;
+}
+
+/*
+form .checklist .column2{
+    display: flex;
+    justify-content: center;
+} */
