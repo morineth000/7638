@@ -1,3 +1,8 @@
 body {
     margin: 0;
 }
+
+.sidemargin10px {
+    margin-left: 10px;
+    margin-right: 10px;
+}
