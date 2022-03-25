@@ -10,7 +10,9 @@ nav {
     padding-top: 45px;
     padding-bottom: 45px;
 }
-
+.red{
+  color: #E94127;
+}
 nav a {
     text-decoration: none;
 }
@@ -85,13 +87,16 @@ nav a {
     flex-direction: row;
   }
 
+
   /* end of refrence */
 
-.links link .subnav .subnav-content .nav-grid{
+/* .links link .subnav .subnav-content .nav-grid{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-}
+} */
+
+
 
 
 
