@@ -9,7 +9,6 @@ nav {
     justify-content: space-evenly;
     padding-top: 45px;
     padding-bottom: 45px;
-    margin-left: -10px;
 }
 
 nav a {
@@ -22,10 +21,11 @@ nav a {
 
 .logo img {
     width: 200px;
-    transform: rotate(-20deg);
+    /* transform: rotate(-20deg); */
 }
 
 .links {
+  padding-top: 36px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,3 +35,60 @@ nav a {
     margin: 0 5px;
 }
 
+/* dropdown */  
+  .subnav {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: red;
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+  .nav-cat {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-cat-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* borderbottom 1px solid black
+      paddingbottom 5px*/

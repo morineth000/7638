@@ -7,10 +7,33 @@
     <title>Document</title>
 
     <script src="https://kit.fontawesome.com/c924cef4e8.js" crossorigin="anonymous"></script>
+   <script> //refrenced from js fiddle @ https://jsfiddle.net/bradtraversy/74owmd01/ 
+    var i = 0 
+    var img = []
+    var time = 3000;
+
+    img[0] = 'media/images/wide-computer-screen/800px/milkyway.jpg'; 
+    img[1] = 'media/images/wide-computer-screen/800px/mountains.jpg';
+    img[2] = 'media/images/wide-computer-screen/800px/foliage.jpg';
+
+    function changeImg() {
+        document.getElementsByClassName('slide')[0].src = img[i];
+        if (i < img.length - 1) {
+            i++;
+        } else {
+            i = 0;
+        }
+
+        setTimeout('changeImg()', time);
+    }
+    window.onload = changeImg;
+   </script>
 
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/nav.css">
+
+    </script>
 </head>
 <body>
     <nav class="nav1">
@@ -19,7 +42,34 @@
         </div>
         <div class="links">
             <div class="link">
-                <a href="https://www.utah.com/destinations/">DESTINATIONS</a>                
+                <!-- refrence from w3 @ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_subnav -->
+                <div class="subnav"> 
+                    <button class="subnavbtn">DESTINATIONS</button>
+                    <div class="subnav-content">
+                      <div class="nav-cat">
+                        National Parks
+                        <div class="nav-cat-links">
+                            Arches
+                            Bryce Canyon
+                            Canyonlands
+                            Capital Reef
+                            Zion
+                            Grand Canyon
+                            Grand Circle Tour
+                        </div>
+                      </div>
+                      <div class="nav-cat">
+                        National Monuments
+                        <div class="nav-cat-links">
+                            Bears Ears
+                            Cedar Breaks
+                            Dinosaur National Monuments
+                            Four Corners
+                            Grand Staircase
+                        </div>
+                      </div>
+                    </div>
+                  </div>
             </div>
             <div class="link">
                 <a href="https://www.utah.com/things-to-do/">THINGS TO DO</a>
@@ -44,6 +94,6 @@
             </div>
         </div>
     </nav>
-    
+    <img class="slide" alt="Slide Show of Utah">
 </body>
 </html>
