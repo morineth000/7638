@@ -10,9 +10,14 @@ nav {
     padding-top: 45px;
     padding-bottom: 45px;
 }
-.red{
+.red a{
   color: #E94127;
 }
+
+.red button{
+  color: #E94127;
+}
+
 nav a {
     text-decoration: none;
 }
